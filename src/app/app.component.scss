@@ -1,0 +1,19 @@
+.navigationButton {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+
+  button {
+    margin: 20px 10px;
+    border-radius: 20px;
+    height: 45px;
+  }
+}
