@@ -1,0 +1,9 @@
+<button color="primary" mat-raised-button (click)="setData()">
+  Send data to child!
+</button>
+<div>Data from child: {{ childInputData }}</div>
+
+<app-child
+  [parentText]="parentInputData"
+  (childEvent)="receiveData($event)"
+></app-child>
